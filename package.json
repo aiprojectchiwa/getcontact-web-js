@@ -1,0 +1,27 @@
+{
+    "name": "@akane_chiwa/getcontact-web-js",
+    "version": "1.0.5",
+    "description": "getcontact-web-api",
+    "main": "dist/chiwa.js",
+    "types": "dist/chiwa.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aiprojectchiwa/getcontact-web-js.git"
+    },
+    "homepage": "https://github.com/aiprojectchiwa/getcontact-web-js#readme",
+    "keywords": [
+        "getcontact",
+        "api"
+      ],
+    "author": "@akane_chiwa",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^16.4.5",
+        "puppeteer": "^10.0.0"
+    }
+}
